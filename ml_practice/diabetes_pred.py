@@ -35,8 +35,8 @@ input_data={'Pregnancies':Pregnancies,'Glucose':Glucose,'BloodPressure':BloodPre
 if st.button('Predict'):
     prediction = predict(input_data)
     if prediction[0] == 1:
-        st.success('The predicted risk of heart disease is high.')
+        st.success('The predicted risk of diabetes is high.')
     else:
-        st.success('The predicted risk of heart disease is low.')
+        st.success('The predicted risk of diabetes is low.')
 
 
